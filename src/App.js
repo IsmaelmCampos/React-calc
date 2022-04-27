@@ -31,8 +31,9 @@ function App() {
     setValues(0);
   };
 
-  const remove = () => {
-    const arrayValue = Array.from(values);
+const remove = () => {
+    const valstr = values.toString();
+    const arrayValue = Array.from(valstr);
     arrayValue.pop();
 
     setValues(arrayValue.join(""));
