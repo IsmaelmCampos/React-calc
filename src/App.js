@@ -44,7 +44,8 @@ function App() {
     pressedButton = e.target?.getAttribute("data-value") || e;
     console.log(typeof pressedButton);
 
-    ops.includes(values[values.length - 1]) && pressedButton === "."
+    (ops.includes(values[values.length - 1]) && pressedButton === ".") ||
+    pressedButton === "="
       ? console.log("nope")
       : values === 0 && pressedButton === "-"
       ? setValues("-")
