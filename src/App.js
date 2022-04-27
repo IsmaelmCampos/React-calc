@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+
 import React, { useState, Component, useEffect } from "react";
 import "./App.css";
 import { CalculatorInput, CalculatorWrapper } from "./App.styled";
-import { keyframes } from "styled-components";
+
 
 function App() {
   const [values, setValues] = useState(0);
