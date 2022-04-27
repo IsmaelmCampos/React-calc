@@ -1,0 +1,39 @@
+body{
+  background-color: lightgray;
+}
+
+h1{
+  text-align: center;
+}
+.app{
+
+}
+
+.numbers{
+
+}
+.numbers #zero{
+
+}
+
+.numbers #add{
+
+}
+
+#equals{
+
+}
+
+.test{
+  display:grid;
+  justify-content: center;
+}
+
+.clean-and-remove {
+  display:flex;
+  
+}
+
+.ac .remove {
+ 
+}
